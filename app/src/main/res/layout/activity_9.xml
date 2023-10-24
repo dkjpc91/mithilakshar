@@ -1,0 +1,4247 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/homebackground9"
+        android:orientation="vertical">
+
+
+
+
+        <ScrollView
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_marginTop="-30dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="153dp"
+                    android:background="@drawable/homebackground"
+                    android:src="@drawable/mithilakshar" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:textSize="38sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text=" तवर्गादि संयुक्ताक्षर"
+                    android:textColor="@color/black"
+                    android:background="#00FFF985"
+                    />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnOrderPreserved="false"
+                    android:alignmentMode="alignMargins"
+                    android:padding="12dp"
+                    android:columnCount="2"
+                    android:rowCount="25">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u1">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्क "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u2">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्ख "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u3">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्त "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u4">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्थ "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u5">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्न "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u6">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्प "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u7">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्फ "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u8">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्म "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u9">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u10">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u11">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u12">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" त्स "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u13">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" थ्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u14">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" थ्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u15">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" थ्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u16">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" द्ग "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u17">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" द्द "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u18">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" द्ध "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u19">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" द्भ "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u20">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" द्म "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u21">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" दब "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u22">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" द्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u23">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" द्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u24">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ध्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u25">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ध्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u26">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ध्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u27">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" न्द "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u29">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" न्ध "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u30">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" न्न "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u31">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" न्ब "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u32">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" न्म "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u33">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" न्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u34">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" न्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u35">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" न्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u36">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" न्स "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/u37">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" न्ह "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </GridLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:textSize="38sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="पवर्गादि संयुक्ताक्षर"
+                    android:textColor="@color/black"
+                    android:background="#00FFF985"
+                    />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnOrderPreserved="false"
+                    android:alignmentMode="alignMargins"
+                    android:padding="12dp"
+                    android:columnCount="2"
+                    android:rowCount="25">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v1">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" प्त "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v2">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" प्न "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v3">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" प्प "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v4">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" प्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v5">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" प्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v6">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" प्ल "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v7">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" प्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v8">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" प्स "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v9">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" फ्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v10">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" फ्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v11">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" फ्ल "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v12">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" फ्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v13">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ब्ज "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v14">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ब्द "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v15">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ब्ध "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v16">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ब्ब "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v17">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ब्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v18">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ब्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v19">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" भ्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v20">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" भ्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v21">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" भ्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v22">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" म्न "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v23">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" म्प "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v24">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" म्फ "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v25">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" म्ब "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v26">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" म्भ "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v27">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" म्म "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v28">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" म्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v29">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" म्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v30">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" म्ल "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/v31">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" म्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </GridLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:textSize="38sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="अन्तस्थादि संयुक्ताक्षर"
+                    android:textColor="@color/black"
+                    android:background="#00FFF985"
+                    />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnOrderPreserved="false"
+                    android:alignmentMode="alignMargins"
+                    android:padding="12dp"
+                    android:columnCount="2"
+                    android:rowCount="25">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w1">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" य्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w2">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" य्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w3">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" य्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w7">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ल्क "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w8">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ल्प "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w9">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ल्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w10">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" व्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w11">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" व्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w12">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" व्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w13">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" श्च "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w14">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" श्छ "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w15">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" श्न "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w16">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" श्म "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w17">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" श्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w18">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" श्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w19">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" श्ल "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w20">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" श्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w21">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" श्श "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w24">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ष्क "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w25">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ष्ट "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w26">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ष्ठ "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w27">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ष्ण "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w28">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ष्प "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w29">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" ष्म "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w30">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्क "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w31">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्ख "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w32">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्त "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w33">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्तु "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w34">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्तू "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w35">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्थ "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w36">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्न "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w37">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्य "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w38">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्र "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w41">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्ल "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w42">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्व "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/w43">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" स्स "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="35dp">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </GridLayout>
+
+
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    />
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

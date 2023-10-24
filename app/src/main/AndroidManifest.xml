@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/m"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mithilakshar"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity11"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".activity10"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".activity9"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".activity8"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".activity7"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".activity6"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".activity5"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".activity4"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".activity3"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".activity2"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".activity1"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="TCBqddxO0CU_9pvP7WWczXmAbahZhbDAM9T7A7x52t6hVGzqniVNgUdBU07pT5DzQnEseOS6DNTeog5ahQZwaZ" />
+    </application>
+
+</manifest>

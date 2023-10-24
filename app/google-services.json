@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "828985471423",
+    "project_id": "mithilakshar-bc020",
+    "storage_bucket": "mithilakshar-bc020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828985471423:android:5d5e7a9dabf0a3f5dcf10a",
+        "android_client_info": {
+          "package_name": "com.maithilishiksha.mithilakshar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828985471423-6ieipfdgecttg7jaqvoh16adjld3obca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maithilishiksha.mithilakshar",
+            "certificate_hash": "7342cdd0d6f23a21e02da24afcebfbb9b62c306d"
+          }
+        },
+        {
+          "client_id": "828985471423-lnt3e34cuapici79nj9uequm7b2s5n5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtVRIl7-W5tEtXLb7Q5t7KwjM0V8kkCHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828985471423-lnt3e34cuapici79nj9uequm7b2s5n5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/homebackground"
+
+    tools:context=".MainActivity">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/homescreen"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="183dp"
+                android:layout_alignTop="@+id/scv"
+                android:layout_marginTop="-30dp"
+                android:layout_weight="1"
+                android:background="@drawable/homebackground"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/mithilakshar" />
+
+            <ScrollView
+                android:id="@+id/scv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_above="@id/ad_view"
+                android:layout_marginTop="-50dp"
+                android:layout_weight="10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="2"
+                        android:columnOrderPreserved="false"
+                        android:padding="12dp"
+                        android:rowCount="11">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/a11">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="स्वर वर्ण"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/b1">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="व्यंजन वर्ण-I"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/c2">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="व्यंजन वर्ण-II"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f4"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="130dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/d2">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="मात्रा - I"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/g1">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="मात्रा - II"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f6"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/j1">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="मात्रा - III"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/m1">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="मात्रा - IV"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f8"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/r2">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="संयुक्ताक्षर-I"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f9"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/u2">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="संयुक्ताक्षर-II "
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f10"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/o3">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="प्रमुख शब्द"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/f11"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="2dp"
+                            app:cardCornerRadius="42dp"
+                            app:cardElevation="20dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/namaste">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="धन्यवाद "
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </GridLayout>
+
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+
+            <com.applovin.mediation.ads.MaxAdView
+                android:id="@+id/ad_view"
+                xmlns:maxads="http://schemas.applovin.com/android/1.0"
+                maxads:adUnitId="1549bf3908783d6b"
+                android:background="@color/white"
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>
